@@ -82,6 +82,14 @@
             margin-bottom: 4px; /* 高さのズレを補正 */
         }
     </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BWD9L1NCED"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BWD9L1NCED');
+</script>
 </head>
 <body class="bg-[#fafafa] font-sans antialiased selection:bg-accent-300 selection:text-gray-900">
 
@@ -140,7 +148,10 @@
                 <div class="flex flex-col items-center">
                     
                     <!-- ========== 【差し替え箇所】LINE登録ボタンURL ========== -->
-                    <a href="https://lin.ee/OgXAS4y" class="w-full md:w-auto inline-flex items-center justify-center px-8 py-4 text-lg md:text-xl font-black text-white bg-line hover:bg-lineHover rounded-full btn-pop shadow-lg" style="border-bottom-color: #049e43;">
+                    <a href="https://lin.ee/OgXAS4y"
+   onclick="event.preventDefault(); gtag('event', 'line_click_lp3_top', { event_category: 'engagement', event_label: 'lp3_line_button_top', event_callback: function(){ window.location.href='https://lin.ee/OgXAS4y'; }, transport_type: 'beacon' }); setTimeout(function(){ window.location.href='https://lin.ee/OgXAS4y'; }, 700);"
+   class="w-full md:w-auto inline-flex items-center justify-center px-8 py-4 text-lg md:text-xl font-black text-white bg-line hover:bg-lineHover rounded-full btn-pop shadow-lg"
+   style="border-bottom-color: #049e43;">
                         <svg class="w-7 h-7 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.922-4.069 9.428-6.967 1.739-1.907 2.572-3.843 2.572-5.992z"/>
                         </svg>
@@ -364,7 +375,10 @@
                 </div>
                 
                 <!-- ========== 【差し替え箇所】LINE登録ボタンURL ========== -->
-                <a href="https://lin.ee/OgXAS4y" class="w-full md:w-auto inline-flex items-center justify-center px-8 py-5 text-xl md:text-2xl font-black text-white bg-line hover:bg-lineHover rounded-full btn-pop shadow-xl mb-8" style="border-bottom-color: #049e43;">
+                <a href="https://lin.ee/OgXAS4y"
+   onclick="event.preventDefault(); gtag('event', 'line_click_lp3_bottom', { event_category: 'engagement', event_label: 'lp3_line_button_bottom', event_callback: function(){ window.location.href='https://lin.ee/OgXAS4y'; }, transport_type: 'beacon' }); setTimeout(function(){ window.location.href='https://lin.ee/OgXAS4y'; }, 700);"
+   class="w-full md:w-auto inline-flex items-center justify-center px-8 py-5 text-xl md:text-2xl font-black text-white bg-line hover:bg-lineHover rounded-full btn-pop shadow-xl mb-8"
+   style="border-bottom-color: #049e43;">
                     <svg class="w-8 h-8 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.922-4.069 9.428-6.967 1.739-1.907 2.572-3.843 2.572-5.992z"/>
                     </svg>
